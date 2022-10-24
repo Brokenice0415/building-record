@@ -48,13 +48,3 @@
         <version>1.7.7</version>
       </dependency>
     ```
-
-## Docker
-
-```shell
-> bash dev/docker/run.sh
-```
-
-1. mkdir: cannot create directory ‘/root’: Permission denied
-
-    ?
