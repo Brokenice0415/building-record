@@ -1,5 +1,10 @@
 ## Package and Run
 ```shell
+# 复制并修改config
+# 其中dataDir需要确实存在
+# 确保有读写权限（chmod）
+> cp conf/zoo_sample.cfg conf/zoo.cfg
+
 # 打包
 # 跳过测试（费时间且有个会失败）
 > mvn clean package -DskipTests
